@@ -1,6 +1,6 @@
 {
   "name": "@vicentecalfo/pastagem-lapig-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pacote para facilitar a busca de informações na API do Atlas Digital das Pastagens Brasileiras do Laboratório de Processamento de Imagens e Geoprocessamento (LAPIG).",
   "main": "dist/pastagem-lapig-api.js",
   "types": "dist/pastagem-lapig-api.d.ts",
