@@ -37,7 +37,7 @@ pastagemLapigApi
 `areaDePastagem`
 
 **Parâmetros**
-```json
+```javascript
 {
 	relatorio: 'areaDePastagem', // Tipo de relatório (obrigatório)
 	codigoMunicipio: 3301702, // código do IBGE (opcional)
@@ -63,7 +63,7 @@ pastagemLapigApi
 **Observação:** Só está disponível o relatório do ano de 2018.
 
 **Parâmetros**
-```json
+```javascript
 {
 	relatorio: 'pastagemDegradada', // Tipo de relatório (obrigatório)
 	codigoMunicipio: 3301702, // código do IBGE (opcional)
@@ -85,7 +85,7 @@ pastagemLapigApi
 `rebanhoBovinoUA`
 
 **Parâmetros**
-```json
+```javascript
 {
 	relatorio: 'rebanhoBovinoUA', // Tipo de relatório (obrigatório)
 	codigoMunicipio: 3301702, // código do IBGE (opcional)
@@ -109,7 +109,7 @@ pastagemLapigApi
 `potencialDeIntensificacaoPecuaria`
 
 **Parâmetros**
-```json
+```javascript
 {
 	relatorio: 'potencialDeIntensificacaoPecuaria', // Tipo de relatório (obrigatório)
 	codigoMunicipio: 3301702, // código do IBGE (opcional)
@@ -157,7 +157,7 @@ pastagemLapigApi
 "33","3301702","RJ","RIO DE JANEIRO","DUQUE DE CAXIAS","0.26235000000000000000"
 ```
 **Saída convertida em JSON**
-```json
+```javascript
 [
   {
     cd_geouf: 33,
