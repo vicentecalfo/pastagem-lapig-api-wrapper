@@ -1,0 +1,43 @@
+{
+  "name": "@vicentecalfo/pastagem-lapig-api-wrapper",
+  "version": "1.0.0",
+  "description": "Pacote para facilitar a busca de informações na API do Atlas Digital das Pastagens Brasileiras do Laboratório de Processamento de Imagens e Geoprocessamento (LAPIG).",
+  "main": "dist/pastagem-lapig-api.js",
+  "types": "dist/pastagem-lapig-api.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "ts-node src/pastagem-lapig-api.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentecalfo/pastagem-lapig-api-wrapper.git"
+  },
+  "author": "Vicente Calfo <vicentecalfo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vicentecalfo/pastagem-lapig-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/vicentecalfo/pastagem-lapig-api-wrapper#readme",
+  "keywords": [
+    "lapig",
+    "pastagem",
+    "meio ambiente",
+    "Brasil",
+    "api"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@akanass/rx-http-request": "^3.3.0",
+    "csvtojson": "^2.0.10",
+    "rxjs": "^6.6.3"
+  }
+}
